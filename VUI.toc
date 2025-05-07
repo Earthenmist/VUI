@@ -1,0 +1,14 @@
+## Interface: 110105
+## Title: VUI
+## Notes: A modular UI addon for World of Warcraft inspired by ElvUI, using Blizzard's UI as a base.
+## Author: Earthenmist-Anachronos
+## Version: 1.0.0
+## SavedVariables: VUIDB
+## SavedVariablesPerCharacter: VUICharDB
+
+Core/Init.lua
+Core/Config.lua
+Modules/ActionBars.lua
+Modules/AutoVendor.lua
+Modules/AutoRepair.lua
+Modules/Chat.lua
