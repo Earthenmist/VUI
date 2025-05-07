@@ -22,6 +22,7 @@ f:SetScript("OnEvent", function(_, event, addon)
         VUIDB = VUIDB or {}
         VUICharDB = VUICharDB or {}
     elseif event == "PLAYER_LOGIN" then
+        print("|cff00ccffVUI|r loaded. Type /vui for options (coming soon!)")
         VUI:Initialize()
     end
 end)
